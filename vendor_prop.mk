@@ -54,7 +54,7 @@ persist.vendor.qti.telephony.vt_cam_interface=1
 
 # CNE/DPM
 PRODUCT_PROPERTY_OVERRIDES += \
-persist.cne.feature=1
+persist.vendor.cne.feature=1
 
 # Coresight
 PRODUCT_PROPERTY_OVERRIDES += \
@@ -199,7 +199,6 @@ persist.dbg.ims_volte_enable=1 \
 persist.dbg.volte_avail_ovr=1 \
 persist.dbg.vt_avail_ovr=1 \
 persist.dbg.wfc_avail_ovr=0 \
-persist.radio.apm_sim_not_pwdn=1 \
 persist.radio.calls.on.ims=0 \
 persist.radio.csvt.enabled=false \
 persist.radio.hw_mbn_update=0 \
